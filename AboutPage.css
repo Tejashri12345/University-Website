@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #cec4c4;
+}
+
+/* <!--header section--> */
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    gap: 558px;
+}
+
+.navbar img {
+    width: 70px;
+    height: -70px;
+    margin-bottom: 160px;
+}
+
+.navbar a {
+    position: relative;
+    left: 19px;
+    padding-left: 40px;
+    color: rgb(19, 17, 17);
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.content1 {
+    margin-left: 230px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.content1 a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #010703;
+    display: block;
+    transition: 0.3s;
+    margin: auto;
+}
+
+.content1 a:hover::after {
+    width: 100%;
+}
+
+.logo {
+    margin-left: 26px;
+    margin-top: 2px;
+}
+
+/* About Page */
+.container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section {
+    float: left;
+    width: 55%;
+}
+
+.image {
+    float: right;
+    width: 40%;
+    transition: .5s ease-in;
+    filter: grayscale(100%);
+}
+.image:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.image img {
+    width: 110%;
+    height: 300px;
+    margin-top: 150px;
+}
+
+h1 {
+    color: rgb(163, 47, 70);
+}
+
+.box {
+    height: 30px;
+    width: 400px;
+    /* border: 1px solid black; */
+    border: none;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(136, 83, 93);
+}
+
+.box :hover {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: scale(1.2);
+    transition: 0.4s;
+    filter: drop-shadow(0px 0px 6px rgb(225, 202, 226));
+
+}
+
+.content-section title {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+.social {
+    margin: 15px 0 0 210px;
+    font-size: 30px;
+    display: flex;
+    gap: 25px;
+}
+
+#icon1 {
+    color: green;
+}
+
+#icon1:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+    filter: drop-shadow(0px 0px 6px rgb(113, 220, 20));
+}
+
+#icon2 {
+    color: crimson;
+}
+
+#icon2:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+    filter: drop-shadow(0px 0px 6px rgb(134, 22, 50));
+}
+
+#icon3 {
+    color: blue;
+}
+
+#icon3:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+    filter: drop-shadow(0px 0px 6px rgb(116, 179, 194));
+}
+
+#icon4 {
+    color: purple;
+}
+
+#icon4:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+    filter: drop-shadow(0px 0px 6px rgb(157, 162, 222));
+}
+
+#icon5 {
+    color: rgb(36, 109, 149);
+}
+
+#icon5:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+    filter: drop-shadow(0px 0px 6px rgb(103, 187, 208));
+}
+
+.btn {
+    padding: 10px 10px 10px 10px;
+    margin: 15px 0 0 280px;
+    font-size: 15px;
+
+}
+
+.btn:hover {
+    background-color: rgb(200, 131, 131);
+    border: none;
+}
+.section{
+   margin-bottom: 700px;
+}

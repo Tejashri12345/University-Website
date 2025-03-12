@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./Images/sppu\ image.webp); */
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://img.freepik.com/premium-photo/grunge-alice-blue-color-texture_469558-36244.jpg);
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    gap: 558px;
+}
+
+.content {
+    margin-left: 230px;
+    margin-top: 25px;
+    display: flex;
+
+}
+
+.navbar img {
+    width: 70px;
+    height: -70px;
+    margin-bottom: 160px;
+}
+
+.navbar a {
+    position: relative;
+    left: 19px;
+    padding-left: 40px;
+    color: rgb(6, 3, 3);
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 26px;
+    margin-top: 2px;
+}
+
+.content a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #61db88;
+    display: block;
+    transition: 0.3s;
+    margin: auto;
+}
+
+.content a:hover::after {
+    width: 100%;
+}
+
+/* contact Page */
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.main-container {
+    height: 500px;
+    width: 850px;
+    border: 1px solid black;
+    display: flex;
+    border: none;
+}
+
+.form {
+    height: 500px;
+    width: 625px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: 0.3s;
+    border-radius: 20px ;
+}
+.form:hover{
+    box-shadow: 0 0 20px 0px rgb(106, 106, 217);
+    background-color: rgb(242, 234, 165);
+}
+
+h3{
+
+    padding: 10px 140px 0 100px;
+    font-weight: 170px;
+}
+
+.t1 {
+    height: 20px;
+    width: 270px;
+    border-bottom: 1px solid black;
+    /* border: none; */
+    outline: none;
+    background: none;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+.t2,button {
+    height: 120px;
+    width: 270px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.btn{
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: 0.3s ease-in-out;
+    color: white;
+    background-color: red;
+}
+.address {
+    height: 500px;
+    width: 425px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.address:hover{
+box-shadow: 0px 0px 12px 0px rgb(223, 100, 203);
+background-color: rgb(242, 234, 165);
+}
+.heading{
+    padding: 28px 10px 0 100px;
+    font-weight: 170px;
+}
+.items{
+    padding: 28px 50px 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.s1{
+    font-size: 14px;
+    text-align: justify;
+}
+h4{
+    display: flex;
+    gap: 20px; 
+    text-align: center;
+}
+iframe{
+    padding-top: 30px;
+    padding-left: 30px;
+} 
+
+.map:hover{
+    transform: scale(1.1);
+
+ }
+

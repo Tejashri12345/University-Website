@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./Images/loginImg6.jpg);
+    background-size: cover;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./Images/sppu\ image.webp); */
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    gap: 558px;
+}
+
+.content {
+    margin-left: 230px;
+    margin-top: 25px;
+    display: flex;
+
+}
+
+.navbar img {
+    width: 70px;
+    height: -70px;
+    margin-bottom: 160px;
+}
+
+.navbar a {
+    position: relative;
+    left: 19px;
+    padding-left: 40px;
+    color: hwb(0 100% 0%);
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 26px;
+    margin-top: 2px;
+}
+
+.content a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #61db88;
+    display: block;
+    transition: 0.3s ease;
+    margin: auto;
+}
+
+.content a:hover::after {
+    width: 100%;
+}
+
+/* StudentLogin Section */
+.main-container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container {
+    height: 500px;
+    width: 350px;
+    border: 2px solid black;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    margin: 80px 560px 80px 560px; */
+    flex-direction: column;
+    gap: 50px;
+    /* background-image: url(https://t4.ftcdn.net/jpg/01/16/88/37/360_F_116883786_wuckft1sNw1ouQfJ6FuquZnxea3qBlxy.jpg); */
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.heading h2 {
+    margin-left: 80px;
+    padding-top: 110px;
+}
+
+.text {
+    display: flex;
+    gap: 50px;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45px;
+}
+input {
+    outline: none;
+    border: none;
+    border-radius: 0 0 0 0;
+    height: 25px;
+    width: 250px;
+    /* outline: none; */
+}
+
+.container:hover {
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 0 20px 0px rgb(220, 217, 221);
+    
+}
+
+h2 {
+    color: white;
+}
+
+.button3{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2px;
+}
+.main-btn{
+    margin-top: 60px;
+    margin-right:30px;
+}
+.button1 {
+    padding: 3px ;
+    width: 120px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(0, 255, 255);
+    border: transparent;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.button1:hover{
+    transition: 0.3s ease-in-out;
+    color: rgb(0, 0, 0);
+    background-color: rgb(219, 205, 83);
+}
+/* .validation{
+    display: flex;
+    gap: 25px;
+    
+}
+.validation a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    
+} */

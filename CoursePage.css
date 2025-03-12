@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+   background-color: aliceblue;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./Images/sppu\ image.webp); */
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    gap: 558px;
+}
+.content{
+    margin-left: 230px;
+    margin-top: 25px;
+    display: flex;
+    
+}
+.navbar img{
+width: 70px;
+height: -70px;
+margin-bottom: 160px;
+}
+.navbar a{
+    position: relative;
+    left: 19px;
+    padding-left: 40px;
+    color: rgb(6, 3, 3);
+    font-size: 17px;
+    text-decoration: none;
+}
+.logo{
+    margin-left: 26px;
+    margin-top: 2px;
+}
+.content  a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #61db88;
+    display: block;
+    transition: 0.3s;
+    margin: auto;
+}
+.content a:hover::after{
+    width: 100%;
+}
+
+
+/* Course Section */
+.course{
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+    background-color: aliceblue;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.bold{
+   color: rgb(137, 2, 29);
+}
+
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: rgb(255, 213, 220);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgb(106, 106, 217);
+}

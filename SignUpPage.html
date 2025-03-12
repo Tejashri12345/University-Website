@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./SignUpPage.css">
+    <title>StudentLoginPage</title>
+</head>
+
+<body>
+    <!-- StudentLoginPage section -->
+    <div class="main-container">
+        <div class="container">
+            <div class="heading">
+                <h2>SignUp</h2>
+            </div>
+            <div class="text">
+                <!-- <h3>Create your account</h3> -->
+                <form action="" id="signupForm">
+                    <div class="field">
+                        <label for="name">Name<sup style="color: red;">*</sup></label>
+                        <input type="text" placeholder="Enter your name" id="name" required><br>
+
+                        <label for="email">Email<sup style="color: red;">*</sup></label>
+                        <input type="email" placeholder="Enter your email" id="email" required><br>
+
+                        <label for="password">Password<sup style="color: red;">*</sup></label>
+                        <input type="password" placeholder="Enter your password" id="password" required><br>
+                    </div>
+                    <div><button type="button" id="submitButton" onclick="handleSubmit()" class="btn">Sign Up</button>
+                    </div>
+                    <br>
+                    <h5 class="signup">Already have an account?<a href="./StudentLogin.html"
+                            style="color: rgb(54, 117, 72);"> Sign In</a></h5>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./SignUp.js"></script>
+</body>
+
+</html>
